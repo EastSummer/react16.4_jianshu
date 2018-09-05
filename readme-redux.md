@@ -20,3 +20,6 @@
 * store.dispatch
 * store.getState
 * store.subscribe
+
+### Redux-thunk中间件
+* [redux-devtools配合thunk用法](https://github.com/zalmoxisus/redux-devtools-extension)

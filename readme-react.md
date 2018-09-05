@@ -60,6 +60,8 @@
 6. setState异步是为了提升底层性能，打个比方，如果连续多次调用setState(时间间隔很小)，react异步可以把3次setState合并成一次，只去做一次virtualDOM的比对
 7. React.Component内置了除render以外所有的生命周期函数，所以继承Component的组件必须写render函数
 8. ajax请求写在componentDidMount(写在render里会被反复执行)
+9. 不要在setState的更新函数中访问event变量
+    > [Event Pooling](https://reactjs.org/docs/events.html#event-pooling)
 
 
 ### 插件&工具
