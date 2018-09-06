@@ -39,3 +39,7 @@
 4. 使用 takeEvery('*')*通配符 * 模式*，我们就能捕获发起的所有类型的 action
 
 ### React-Redux
+1. Provider将store提供给内部组件
+2. connnect通过mapStateToProps方法连接组件和store
+3. 此时组件里的调用使用this.props
+4. 组件通过mapDispatchToProps方法修改store里的数据
