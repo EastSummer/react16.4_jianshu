@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import 'antd/dist/antd.css';
-import store from './store';    // 默认去找文件夹下的index.js
-import {getInputChangeAction, getAddItemAction, getDeleteItemAction, getTodoList} from './store/actionCreators';
+import store from './store-saga/index';    // 默认去找文件夹下的index.js
+import {getInputChangeAction, getAddItemAction, getDeleteItemAction, getInitListAction} from './store-saga/actionCreators';
 import TodoListUI from './TodoListUI';
 
 class TodoList extends Component {
@@ -28,7 +28,8 @@ class TodoList extends Component {
     }
 
     componentDidMount() {
-        // 异步操作移除至action
+        const action = getInitListAction()
+        store.dispatch(action)
         // axios.get('/list.json')
         //     .then(res=>{
         //         const data = res.data
@@ -36,8 +37,6 @@ class TodoList extends Component {
         //         store.dispatch(action)
         //     })
         //     .catch()
-        const action = getTodoList()    // action为返回的函数
-        store.dispatch(action)  // 调用时action(返回的函数)会自动执行
     }
 
     handleInputChange(e) {
