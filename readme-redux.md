@@ -21,5 +21,12 @@
 * store.getState
 * store.subscribe
 
+### Redux的中间件(在action和store之间)
+* dispatch通过参数类型的不同做不同的处理
+* redux-logger 记录action每次派发的日志
+
 ### Redux-thunk中间件
 * [redux-devtools配合thunk用法](https://github.com/zalmoxisus/redux-devtools-extension)
+1. 在creatStore中引入thunk
+2. 在action中创建能返回函数的action(原来只能返回对象)
+3. store.dispatch接受函数时会自动执行该函数
