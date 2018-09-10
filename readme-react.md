@@ -62,6 +62,7 @@
 8. ajax请求写在componentDidMount(写在render里会被反复执行)
 9. 不要在setState的更新函数中访问event变量
     > [Event Pooling](https://reactjs.org/docs/events.html#event-pooling)
+10. react只能兼容ie8及以上
 
 
 ### 插件&工具
