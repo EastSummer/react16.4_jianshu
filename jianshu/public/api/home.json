@@ -1,0 +1,76 @@
+{
+	"success": true,
+	"data": {
+		"topicList": [{
+			"id": 1,
+			"title": "故事",
+			"imgUrl": "//upload.jianshu.io/collections/images/95/1.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 2,
+			"title": "旅行·在路上",
+			"imgUrl": "//upload.jianshu.io/collections/images/13/%E5%95%8A.png?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 3,
+			"title": "摄影",
+			"imgUrl": "//upload.jianshu.io/collections/images/83/1.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 4,
+			"title": "手绘",
+			"imgUrl": "//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 5,
+			"title": "自然科普",
+			"imgUrl": "//upload.jianshu.io/collections/images/76/12.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 6,
+			"title": "读书",
+			"imgUrl": "//upload.jianshu.io/collections/images/4/sy_20091020135145113016.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 7,
+			"title": "@IT·互联网",
+			"imgUrl": "//upload.jianshu.io/collections/images/14/6249340_194140034135_2.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}],
+		"articleList": [{
+			"id": 1,
+			"title": "胡歌12年后首谈车祸",
+			"desc": "文/麦大人 01 胡歌又刷屏了。 近日他上了《朗读者》，而这一期的主题是“生命”，他用磁性的嗓音，朗读了一段《哈姆雷特》中的经典独白，相当震撼：...",
+			"imgUrl": "//upload-images.jianshu.io/upload_images/2259045-2986b9be86b01f63?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}, {
+			"id": 2,
+			"title": "关于 Android 单元测试",
+			"desc": "本文不会用各种高大上的理由试图去说服你写单元测试，只是描述笔者在单元测试这条路上一路走来的思考和简单的示例，如果顺便能让你觉得单元测试其实也没那...",
+			"imgUrl": "//upload-images.jianshu.io/upload_images/300515-1989cc17834bf290.png?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}, {
+			"id": 3,
+			"title": "给不给别人借钱，最能看出你的格局……",
+			"desc": "1. 前几天，闺蜜笑笑打电话说，家里打算加盟一个连锁店，需8万块钱，而她家因前段时间刚买了商铺，手头不方面，问我能不能和老公商量一下，她把商铺作...",
+			"imgUrl": "//upload-images.jianshu.io/upload_images/4956887-a7438b6709c94f1d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}, {
+			"id": 4,
+			"title": "每天一幅禅绕画，成长为最好的自己",
+			"desc": "难的有个空闲的周末，没有户外活动，没有聚会，就这么一整天完全属于自己。 周末自然少不了懒觉。一觉醒来已是10点。 我觉得我是个纠结的人，为啥？ ...",
+			"imgUrl": "//upload-images.jianshu.io/upload_images/5931835-b0cd05f32759a190.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}, {
+			"id": 5,
+			"title": "玫瑰花 | 140字微小说",
+			"desc": "明天就是她的生日了。 她在朋友圈说： “长这么大，还没有收到过一次玫瑰花，有点遗憾。” 第二天同往常一样，她加班到深夜。 她有些失望，删掉了那条...",
+			"imgUrl": "//upload-images.jianshu.io/upload_images/7019771-3e14438084d9e156.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}],
+		"recommendList": [{
+			"id": 1,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+		}, {
+			"id": 2,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+		}, {
+			"id": 3,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+		}, {
+			"id": 4,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+		}, {
+			"id": 5,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+		}]
+	}
+}

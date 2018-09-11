@@ -63,6 +63,7 @@
 9. 不要在setState的更新函数中访问event变量
     > [Event Pooling](https://reactjs.org/docs/events.html#event-pooling)
 10. react只能兼容ie8及以上
+11. PureComponent 内置实现了shouldComponentUpdate
 
 
 ### 插件&工具
