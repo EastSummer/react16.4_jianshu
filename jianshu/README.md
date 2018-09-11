@@ -6,3 +6,4 @@
 2. reset.css 不同浏览器标签样式统一
 3. Immutable.js 管理store中的数据
 4. redux-immutable 统一数据格式
+5. react-router-dom 路由
