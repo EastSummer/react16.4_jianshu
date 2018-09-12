@@ -71,3 +71,5 @@
 2. [React Developer Tools](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi?utm_source=chrome-app-launcher-info-dialog)
 3. [Redux DevTools](https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-app-launcher-info-dialog)
 4. Axios(yarn add axios)
+
+### [React 16.4](https://blog.csdn.net/qq_34134278/article/details/81328464)
