@@ -64,6 +64,7 @@
     > [Event Pooling](https://reactjs.org/docs/events.html#event-pooling)
 10. react只能兼容ie8及以上
 11. PureComponent 内置实现了shouldComponentUpdate
+12. [ReactDOMServer.renderToString(element)](https://reactjs.org/docs/react-dom-server.html) & [createElement](https://reactjs.org/docs/react-api.html#createelement)
 
 
 ### 插件&工具
